@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>프로토타입 오염 공격 시뮬레이션</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>프로토타입 오염 공격 시뮬레이션</h1>
+
+  <label for="targetUrl">타겟 URL 입력:</label><br />
+  <input type="text" id="targetUrl" placeholder="http://localhost:3000" /><br />
+  <button id="runTest">공격 시뮬레이션 실행</button>
+
+  <p>타겟 서버 URL: <span id="currentUrl">없음</span></p>
+
+  <pre id="output"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
